@@ -72,3 +72,84 @@ Utilizando `AND` e `OR`
     SELECT * 
     FROM produtos
     WHERE Marca_produto = 'DELL' OR Marca_produto = 'SAMSUNG';
+
+
+SELECT CPF, NOME FROM tbcliente LIMIT 5;
+
+SELECT * FROM tbproduto WHERE PRODUTO = '544931';
+
+SELECT * FROM tbcliente WHERE CIDADE = 'Rio de Janeiro';
+
+SELECT * FROM tbproduto WHERE SABOR = 'Cítricos';
+
+UPDATE tbproduto SET SABOR = 'Cítricos' WHERE SABOR = 'Limão';
+
+Usando maior, menor que...
+
+SELECT * FROM tbcliente;
+
+SELECT * FROM tbcliente WHERE IDADE = 22;
+
+SELECT * FROM tbcliente WHERE IDADE > 22;
+
+SELECT * FROM tbcliente WHERE IDADE < 22;
+
+SELECT * FROM tbcliente WHERE IDADE <= 22;
+
+SELECT * FROM tbcliente WHERE IDADE <> 22;
+
+SELECT * FROM tbcliente WHERE NOME >= 'Fernando Cavalcante';
+
+SELECT * FROM tbcliente WHERE NOME <> 'Fernando Cavalcante';
+
+SELECT * FROM tbproduto;
+
+SELECT * FROM tbproduto WHERE PRECO_LISTA > 16.008;
+
+SELECT * FROM tbproduto WHERE PRECO_LISTA < 16.008;
+
+SELECT * FROM tbproduto WHERE PRECO_LISTA <> 16.008;
+
+SELECT * FROM tbproduto WHERE PRECO_LISTA BETWEEN 16.007 AND 16.009;
+
+## DATAS
+
+SELECT * FROM tbcliente;
+
+SELECT * FROM tbcliente WHERE DATA_NASCIMENTO = '1995-01-13';
+
+SELECT * FROM tbcliente WHERE DATA_NASCIMENTO > '1995-01-13';
+
+SELECT * FROM tbcliente WHERE DATA_NASCIMENTO <= '1995-01-13';
+
+SELECT * FROM tbcliente WHERE YEAR(DATA_NASCIMENTO) = 1995;
+
+SELECT * FROM tbcliente WHERE MONTH(DATA_NASCIMENTO) = 10;
+
+
+## Filtros compostos
+
+SELECT * FROM tbproduto;
+
+SELECT * FROM tbproduto WHERE PRECO_LISTA BETWEEN 16.007 AND 16.009;
+SELECT * FROM tbproduto WHERE PRECO_LISTA >= 16.007;
+SELECT * FROM tbproduto WHERE PRECO_LISTA <= 16.009;
+
+SELECT * FROM tbcliente WHERE (IDADE >= 18 AND IDADE <= 22 AND SEXO = 'M')
+ OR (cidade = 'Rio de Janeiro' OR BAIRRO = 'Jardins');
+
+SELECT * FROM tbproduto WHERE PRECO_LISTA BETWEEN 16.007 AND 16.009;
+
+SELECT * FROM tbproduto WHERE PRECO_LISTA >= 16.007;
+
+SELECT * FROM tbproduto WHERE PRECO_LISTA <= 16.009;
+
+SELECT * FROM tbproduto WHERE PRECO_LISTA >= 16.007 AND PRECO_LISTA <= 16.009;
+
+SELECT * FROM tbcliente WHERE IDADE >= 18 AND IDADE <= 22;
+
+SELECT * FROM tbcliente WHERE IDADE >= 18 AND IDADE <= 22 AND SEXO = 'M';
+
+SELECT * FROM tbcliente WHERE CIDADE = 'Rio de Janeiro' OR BAIRRO = 'Jardins';
+
+SELECT * FROM tbcliente WHERE (IDADE >= 18 AND IDADE <= 22 AND SEXO = 'M') OR (cidade = 'Rio de Janeiro' OR BAIRRO = 'Jardins');

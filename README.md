@@ -53,7 +53,6 @@ Onde as tabelas possuem algum tipo de relação.
 
 ![Banco de Dados Relacional](../images/relacional.png)
 
-
 ### Banco de dados Não Relacional
 
 Diferente dos bancos elacionais, os não relacionais, não possuem algum tipo de ligação.
@@ -158,3 +157,36 @@ A função de um DBA é grantir que o banco de dados esteja sempre funcionando, 
 > Cientista de dados
 
 Especialista com habilidade para analisar grande volume de dados e interpretar informações de valor e apoiar na tomad de decisão dos negócios.
+
+## Vantagens
+
+> Aprendizado
+
+O profissional com conhecimento sobre o SQL da Oracle conseguirá manipular facilmente o MySQL ou SQL Server da Microsoft. Por mais que existam diferenças - principalmente na parte de funções -, a adaptação do profissional não é uma questão complicada.
+
+> Portabilidade
+
+Por exemplo, é mais simples migrar sistemas que usam Oracle para SQL Server ou para MySQL, ou vice-versa. Lembrando que quanto mais for utilizado o SQL Standard definido pelo ANSI, mais fácil será essa portabilidade no futuro. Então, é útil evitar as funções específicas do banco de dados e permitir que o programa realize essa tarefa.
+
+> Longevidade
+
+Sempre adaptados ao padrão ANSI (da sigla American National Standard Institute)
+A longevidade é a garantia de que os seus relatórios ou processos utilizando o SQL irão funcionar por um longo período, já que estarão sempre adaptados ao padrão ANSI. Ou seja, ao efetuar um upgrade de banco de dados o seu sistema não ficará fora de serviço.
+
+> Comunicação
+
+O fato da maioria utilizar SQL permite a facilidade de comunicação entre os sistemas. Como, por exemplo, processos de ETL, (extract, transform and load), ou de integração entre sistemas que ficam mais simples de serem desenvolvidos, já que ambos utilizam o SQL padrão.
+
+> Liberdade de Escolha
+
+Por existir um padrão de linguagem, se a empresa for optar pelo uso de um banco de dados relacional não ficará presa à linguagem de comunicação, por exemplo, já que são bem semelhantes. Ao tomar essa decisão, a corporação irá utilizar outros critérios de escolha, como performance, hardware, custo, entre outros.
+
+## Desvantagens
+
+> Falta de criatividade
+
+A primeira é a privação da criatividade. O SQL possui limitações que podem não atender às novas demandas no mercado na linguagem SQL, principalmente com o surgimento das redes sociais e dos enormes volumes de dados, o chamado big data. Ou seja, há uma carência nas coletas de dados que estão trafegando na internet.
+	
+> Falta de estruturação
+
+Por não possui if, for e when, isto é, comandos condicionais como as demais linguagens de programação.
