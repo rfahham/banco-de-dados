@@ -190,3 +190,43 @@ A primeira é a privação da criatividade. O SQL possui limitações que podem 
 > Falta de estruturação
 
 Por não possui if, for e when, isto é, comandos condicionais como as demais linguagens de programação.
+
+## Características
+
+> Servidor
+
+O servidor do MySQL é robusto até certo ponto, já que deriva de características de multiacesso, integridade de dados, efetua o relacionamento entre tabelas, trabalha a concorrência quando vários usuários tentam acessar o mesmo dado na mesma tabela, realiza o controle de transações, entre outros processos. Essa robustez é uma característica importante no que diz respeito ao servidor do MySQL.
+
+> Portabilidade
+
+A portabilidade do banco de dados. O MySQL pode ser transacionado entre diversos sistemas. Isso significa que consigo desenvolver o banco de dados MySQL em Windows e posteriormente utilizar no Linux ou Unix, sendo assim, interplataforma.
+
+> Multithreads
+
+O MySQL usa uma programação de threads utilizando diretamente o Kernel do sistema operacional, permitindo aumentar a velocidade de transações, além de facilitar a integração da ferramenta com hardwares, possibilitando a escalabilidade da performance. Isto quer dizer que, caso tenha um MySQL usando um servidor com determinado número de CPUs, é possível acrescentar mais CPUs que o banco de dados se adapta usando o máximo do hardware disponível.
+
+> Formas de Armazenamento
+
+O banco de dados MySQL atua com diversas formas de armazenamento que se adaptam às características das suas necessidades. Por exemplo, algumas formas priorizam a velocidade, enquanto outras o alto volume de armazenamento, tudo dependendo do objetivo pelo qual você utiliza o MySQL. Discutiremos mais sobre isso em treinamentos futuros, quando abordarmos a parte de administração.
+
+> Velocidade e Desempenho
+
+A velocidade é outro aspecto fundamental. O MySQL é considerado um dos bancos mais rápidos do mercado, sobretudo quando são utilizadas funcionalidades ligadas à internet. Como exemplo, podemos citar sites de e-commerce e de aplicações de internet, já que as nuvens da Amazon, do Google e da Microsoft (Azure) disponibilizam instâncias de MySQL com uma alta escalabilidade. 
+
+> Segurança
+
+Já sobre segurança, o banco de dados MySQL possui internamente diversos mecanismos de segurança, o que o torna bastante seguro para o mercado. Além disso, permite a segregação dos dados por usuários de acesso, isto é, a pessoa possui acesso somente ao que lhe for permitido. 
+
+> Capacidade
+
+O MySQL também permite o armazenamento de uma quantidade enorme de dados, tornando a sua capacidade alta, a depender das formas de armazenamento. Se for escolhida uma forma que prioriza o volume de dados, há um limite hoje de até 65 mil terabytes de dados armazenados. Claro, recuperar e manipular esse volume de informação pode ser um pouco difícil e depender de muito hardware. A maioria das aplicações corporativas não precisam desse tamanho todo de armazenamento para trabalharem.
+
+> Aplicabilidade
+
+Já referente à aplicabilidade, o MySQL não se aplica somente a utilidades de internet - apesar de ser preferido por desenvolvedores web -, mas também aplicações de desktop ou corporativas, essas chamadas de On Premises, nas quais o banco de dados é instalado no próprio servidor da empresa. Esses bancos possuem o que chamamos ODBCs (Open Database Connectivity, comum em bancos baseados em Windows) ou JDBCs (Java Database Connectivity, comum em bancos baseados em Java), que permitem realizar acessos rápidos ao banco de dados MySQL em aplicações desktop.
+
+> Logs
+
+No MySQL há um forte gerenciamento de log, que registra tudo o que fazemos no banco. Isso é um ponto interessante quando é necessário realizar uma recuperação de dados ou se for preciso fazer o que é chamado réplica de servidores, técnica bastante usada quando temos um servidor chamado master e outro slave, existindo uma sincronização de dados entre eles.
+
+Por esses motivos, é um dos bancos de dados mais usados em nuvem, já que esse tipo de banco possui diversas replicações em diferentes lugares do planeta para que, caso um CPD (Centro de Processamento de Dados) caia, outro continue operando e a aplicação siga tendo alta disponibilidade de acesso.
