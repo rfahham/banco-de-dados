@@ -233,3 +233,7 @@ Por esses motivos, é um dos bancos de dados mais usados em nuvem, já que esse 
 
 
 https://docs.vultr.com/how-to-install-mysql-on-ubuntu-24-04?ref=9141995&utm_source=performance-max-latam&utm_medium=paidmedia&obility_id=17096555207&&utm_campaign=LATAM_-_Brazil_-_Performance_Max_-_1001&utm_term=&utm_content=&ref=9141995&gad_source=1&gclid=CjwKCAjwiaa2BhAiEiwAQBgyHrTHYQy_EkbvSLEZRDWcpyjojVHj07niwHgRcVBzJ0ZZmP-Mu664-BoCyMoQAvD_BwE
+
+- [Mysql](./sql/install/install.md)
+- [PostgreSQL](./postgresql/install.md)
+- [MongoDB](./mongodb/install.md)

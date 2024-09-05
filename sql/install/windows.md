@@ -1,9 +1,4 @@
-# Instalação e Importação
-
-- Instalação do mySQL e Workbench
-- Importando o banco de dados a ser usado
-
-## Instalação
+# Instalação
 
 O SGBD é composto de 2 partes: Um servidor e uam interface
 Para o caso do MySQL, teremos que instalar o MySQL Server e o MySQL Workbench
